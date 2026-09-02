@@ -1,0 +1,83 @@
+/*Centrar la imagen*/
+header {
+    text-align: center;
+    background-image: url('../img/fondo_1.jpg');
+    background-repeat: repeat-x;
+
+}
+
+.Perfil {
+    width: auto;
+    height: 150px;
+}
+
+/*Cambiar color de fondo y tipografía del título*/
+h1 {
+    background-color: #c8c8c8;
+    font-family: 'Roboto', Times, serif;
+    font-weight: 700;
+    color: #000000;
+    font-style: normal;
+
+}
+
+/* Cambiar color de fondo y tipografía a los subtítulos*/
+h2 {
+    background-color: #c9c8c8;
+    font-family: 'Roboto', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: normal;
+}
+
+/*Sacamos los puntos del listado*/
+.listado {
+    list-style-type: none;
+
+}
+
+/* Elegimos la tipografía para el body*/
+body {
+    font-family: 'Roboto', Times, serif;
+    font-style: normal;
+}
+
+/* Configuramos el pie de página*/
+footer {
+    text-align: center;
+    background-color: #c8c8c8;
+    color: #000000;
+
+}
+
+footer span {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 85%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Roboto', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+header a {
+    position: left;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.volver {
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
